@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f5f0;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.cart-item span {
+    display: inline-block;
+}
+.cart-item .remove-item {
+    cursor: pointer;
+    color: red;
+}
